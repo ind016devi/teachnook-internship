@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./t.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.9.2/css/flag-icons.min.css"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<style>
+  a:link {
+     text-decoration: none !important;
+}
+  .card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+  .id1
+  {
+    animation-name: box;
+    animation-duration:14s;
+    animation-iteration-count:infinite;
+    border-radius:10% 120px ;
+  }
+  @keyframes box {
+    10% {box-shadow: 20px 20px 30px rgb(202, 130, 16);}
+    20%{box-shadow: 20px 20px 30px rgb(89, 164, 95);}
+    30%{box-shadow: 20px 20px 30px rgb(114, 165, 227);}
+    40%{box-shadow: 20px 20px 30px rgb(214, 69, 168);}
+  }
+
+  .nav-item{
+    margin-left: 60px !important;
+  }
+  .a:hover
+  {
+    color:rgb(171, 35, 132);
+    font-size: 20px !important;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    animation-name: box;
+    animation-duration:14s;
+    animation-iteration-count:infinite;
+    border-radius:50% 60px ;
+ 
+   
+  }
+  .input-group-text {
+      background-color: #f8f9fa;
+      border-color: #ced4da;
+  }
+  /* .bord{
+    margin:1px;
+  } */
+  </style>
+</head>
+<body>
+  
+   <div class="d-flex ">
+    <div class="p-2 flex-grow-1 text-center fs-6">WELCOME TO THE WORLD OF SCOOBIES</div>
+    <div class="p-2"><a href="https://www.facebook.com/scoobiesstores" style="color:black;"><i class="fa-brands fa-facebook fa-2x "></i></a></div>
+    <div class="p-2"><a href="https://www.tumblr.com/scoobiesstores" style="color:black;"><i class="fa-brands fa-twitter fa-2x"></i></a></div>
+    <div class="p-2"><a href="https://www.instagram.com/scoobiesstores/"style="color:black;"><i class="fa-brands fa-square-instagram fa-2x"></i></a></div>
+    <div class="p-2"><a href="https://in.pinterest.com/scoobiesstores/"style="color:black;"><i class="fa-brands fa-pinterest fa-2x"></i></a></div>
+  </div>
+  <!-- <form class="d-flex  flex-grow-1 " role="search">
+    <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="search-input">
+    <button class="btn btn-outline-success btn-lg" type="submit" id="search-button" >Search</button>
+  </form> -->
+
+  <nav class="navbar navbar-expand-xxl p-3 ">
+    <div class="container-fluid">
+      <a class="navbar-brand justify-content-lg-center" href="#"><img src="./scoobieslogo.jpg" alt="Logo" width="300" height="80" ></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown  ">
+              <a class=" a nav-link dropdown-toggle p-3 fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SALE
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class=" a dropdown-item" href="https://scoobies.co.in/collections/raksha-bandhan-sale">RAKSHA BANDHAN OFFERS</a></li>
+                <li><a class=" a dropdown-item" href="https://scoobies.co.in/collections/freedom-sale">FREEDOM SALE</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/sale-1">OFFERS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class=" a nav-link p-3 fs-6" href="https://scoobies.co.in/collections/all-products">VIEW ALL</a>
+            </li>
+            <li class="nav-item">
+              <a class="a nav-link p-3 fs-6" href="https://scoobies.co.in/collections/new-arrivals">NEW ARRIVAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="a nav-link p-3 fs-6" href="https://scoobies.co.in/collections/combo">COMBOS</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="a nav-link dropdown-toggle p-3 fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                BY CATEGORY
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/toys-tech">TOYS & TECH</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/backpack">BACKPACKS</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/food-drinks">FOOD & DRINKS</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/crafts-activity-sets">ACTIVITY SETS</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/colors-markers">COLORS & MARKERS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="a nav-link dropdown-toggle p-3 fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                BY AGE
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/0-3-years">0-3 YEARS</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/3-6-years">3-6 YEARS</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/6-9-years">6-9 YEARS</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/9-12-years">9-12 YEARS</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/12-above">12 YEARS & ABOVE</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="a nav-link dropdown-toggle p-3 fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                BY THEME
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/jungle-theme">JUNGLE THEME/AQUA THEME</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/unicorn-llama-theme">UNICORN/LLAMA THEME</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/space-theme">SPACE THEME</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/sporty-theme-1">SPORTY THEME</a></li>
+                <li><a class="a dropdown-item" href="https://scoobies.co.in/collections/fairy-theme">FAIRY THEME</a></li>
+              </ul>
+            </li>
+           
+            <div class="d-grid gap-2 d-md-flex m-300">
+            <li class="nav-item ">
+              <a class=" a nav-link " href="https://shopify.com/59421917370/auth/lookup?destination_uuid=970eef10-3476-4ed7-9f3d-e64022aa2d4f&redirect_uri=https%3A%2F%2Fshopify.com%2F59421917370%2Faccount%2Fcallback&rid=2d8a8b71-6052-4d98-9601-1cc1ba126e7e&ui_locales=en"><i class="fa-regular fa-user fa-2x"> </i></a>
+            </li>
+            <li class="nav-item ">
+              <a class="a nav-link  " href="https://scoobies.co.in/cart"><i class="fa-solid fa-bag-shopping fa-2x"></i></a>
+            </li>
+          
+  <select class="currency-switcher right" name="doubly-currencies">
+    <option value="INR" data-country="India" data-currency-symbol="₹" data-display="INR"><span class="fi fi-in "></span>Indian Rupee</option>
+    <option value="AUD" data-country="Australia" data-currency-symbol="$" data-display="AUD">  <span class="fi fi-au"></span>Australian Dollar</option>
+    <option value="USD" data-country="United-States" data-currency-symbol="$" data-display="USD"><span class="fi fi-us"></span>US Dollar</option>
+    <option value="EUR" data-country="European-Union" data-currency-symbol="€" data-display="EUR"> <span class="fi fi-eu"></span>Euro</option>
+    <option value="GBP" data-country="United-Kingdom" data-currency-symbol="£" data-display="GBP"><span class="fi fi-br"></span>British Pound Sterling</option>
+    <option value="CAD" data-country="Canada" data-currency-symbol="$" data-display="CAD"> <span class="fi fi-ca"></span>Canadian Dollar</option></select>  
+          </div>
+        
+      </div>
+    </div>
+  </nav>
+   <!-- scrolling item -->
+  
+   <div id="carouselExampleDark"  class="carousel slide me-auto" data-bs-ride="carousel" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000" >
+      <a href="https://scoobies.co.in/collections/freedom-sale"> <img src="//scoobies.co.in/cdn/shop/files/freedom_desktop.webp?v=1691137538&amp;" class="d-block w-100" alt="..."></a> 
+        <div class="carousel-caption d-none d-md-block">
+          <h5>INDEPENDENCE DAY SALE</h5>
+         
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <a href="https://scoobies.co.in/collections/raksha-bandhan-sale"><img src="//scoobies.co.in/cdn/shop/files/rakhi_2.webp?v=1691121662&amp;" class="d-block w-100" alt="..."></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>RAKSHA BANDHAN SALE</h5>
+                  </div>
+      </div>
+      <div class="carousel-item" >
+     <a href="https://scoobies.co.in/products/glowballs"> <img src="//scoobies.co.in/cdn/shop/files/Updated_Banner_Size_33c6861a-9617-41f1-ad1d-2b722b7c7db8.jpg?v=1682407449&amp;" class="d-block w-100" alt="..."></a>  
+        <div class="carousel-caption d-none d-md-block">
+         
+           </div>
+      </div>
+    </div>
+    
+  
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <div class=" container text-center ">
+    <div class="row  row-cols-auto justify-content-around ">
+    <div class="a a col"><a href="https://scoobies.co.in/collections/combo"><img src="https://scoobies.co.in/cdn/shop/files/Website_thumbnails_combo-2.webp?v=1678876036 " width="100" height="200" class="  border border-10 bg-primary rounded-circle img-fluid img-thumbnail" >
+    </a> <figcaption class=" text-center"><h4>COMBOS</h4></figcaption></div>
+    <div class="a col" ><a href="https://scoobies.co.in/collections/backpack"><img src="https://scoobies.co.in/cdn/shop/files/Website_thumbnails_new-1_1.webp?v=1679997998" width="100" height="200" class=" border border-10 bg-primary rounded-circle img-fluid img-thumbnail" >
+    </a> <figcaption class="a text-center"><h4>BACKPACKS</h4></figcaption></div>
+      <div class="a col" ><a href="https://scoobies.co.in/collections/art-craft"><img src="https://scoobies.co.in/cdn/shop/files/11_37a39631-c5ea-4f70-ac4b-a697336f1965.png?v=1675322833" width="100" height="200" class=" border border-10 bg-primary rounded-circle img-fluid img-thumbnail" >
+      </a><figcaption class="a text-center"><h4>ARTS & CRAFTS</h4></figcaption></div>
+        <div class="a col" ><a href="https://scoobies.co.in/collections/stationery"><img src="https://scoobies.co.in/cdn/shop/files/Website_thumbnails_new-1_1.webp?v=1679997998" width="100" height="200" class=" border border-10 bg-primary rounded-circle img-fluid img-thumbnail" >
+        </a> <figcaption class="a text-center"><h4>STATIONARY</h4></figcaption></div>
+          <div class="a col" ><a href="https://scoobies.co.in/collections/food-drinks"><img src="https://scoobies.co.in/cdn/shop/files/7_7bda39fc-6b92-4329-859e-628ad90a33bc.png?v=1675322858" width="100" height="200" class=" border border-10 bg-primary rounded-circle img-fluid img-thumbnail" >
+          </a>  <figcaption class="a text-center"><h4>FOOD & DRINKS</h4></figcaption></div>
+            <div class="a col"><a href="https://scoobies.co.in/collections/toys-tech"><img src="https://scoobies.co.in/cdn/shop/files/Website_thumbnails_new-2_2.webp?v=1679998023" width="100" height="200" class=" border border-10 bg-primary rounded-circle img-fluid img-thumbnail" >
+            </a><figcaption class="a text-center"><h4>TOY & TECH</h4></figcaption></div>
+              <div class="a col"><a href="https://scoobies.co.in/collections/litter-finger"><img src="https://scoobies.co.in/cdn/shop/files/Website_thumbnails_combo-1.webp?v=1678876268" width="100" height="200" class=" border border-10 bg-primary rounded-circle img-fluid img-thumbnail" >
+              </a>  <figcaption class="a text-center"><h4>LITTELE FINGERS</h4></figcaption></div>
+                 
+    </div> 
+    </div>
+<div class="container text-center">
+      <div class="d-lg-inline-flex p-2">
+      <div class=" m-5 "  ><a href="https://scoobies.co.in/collections/freedom-sale"><img src="https://scoobies.co.in/cdn/shop/files/bdy_tile.webp?v=1691137433&width=900"  class="a id1 w-100 height-300"></a></div>
+      <div class="  m-5"><a href="https://scoobies.co.in/collections/raksha-bandhan-sale"><img src="https://scoobies.co.in/cdn/shop/files/Tiles-2.webp?v=1691130660&width=900 " class="a id1 w-100 height-300"></a></div>
+      </div>
+      </div>
+  <div ><h4 class=" text-center my-4 ">MOVING FAST</h4></div>
+      <!--content  -->
+      <div class="container container-fluid  ">
+        <div class="row align-items-center  ">
+          <div class="col-sm-6 col-md-6  col-lg-3 col-6  "><div class="card  " ><a href="https://scoobies.co.in/products/heart-star-back-to-school-scoo-ppiness-box">
+            <img src="https://scoobies.co.in/cdn/shop/products/newCOMBOWEBSITEIMAGES-1.webp?v=1680158239&width=360" class="card-img-top w-100 height-300 " alt="bag image">
+            <div class="card-body">
+              <h5 class="a card-title  bg-primary">-46% OFF</h5>
+            </div>
+            <ul class=" list-group list-group-flush  ">
+              <li class="a  list-group-item"><p>Heart Star-Back-to-School Scoo-ppiness Box</p></li>
+              <li class="a  list-group-item d-inline"><del>₹ 11,213.00 INR</del><p>₹ 5,999.00 INR</p></li>
+             </ul>
+            <div class="a border border-black card-body">
+              <h4 class=" card-link text-center ">Add to cart</h4>
+            </a>
+             </div>
+             </div>
+             </div>
+
+             <div class=" col-sm-6 col-md-6  col-lg-3 col-6  "><div class=" card " ><a href="https://scoobies.co.in/products/shining-star-back-to-school-scoo-ppiness-box">
+              <img src="https://scoobies.co.in/cdn/shop/products/combo1.webp?v=1679988516&width=360" class="card-img-top w-100 height-300  " alt="bag image">
+              <div class="card-body">
+                <h5 class="a card-title  bg-primary">-37% OFF</h5>
+              </div>
+              <ul class=" list-group list-group-flush  ">
+                <li class="a  list-group-item"><p>Shining Star-Back-to-School Scoo-ppiness Box</p></li>
+                <li class="a  list-group-item d-inline"><del>₹4,821.00 INR</del><p>₹ 2,999.00 INR</p></li>
+               </ul>
+              <div class="a card-body border border-black">
+                <h4 class="  card-link text-center">Add to cart</h4>
+              </a> 
+              </div>
+           </div>
+          </div>
+
+
+
+
+
+      
+      <div class="col-sm-6 col-md-6  col-lg-3 col-6  "><div class="card" ><a href="https://scoobies.co.in/products/glowing-shark-club-back-to-school-scoo-ppiness-box">
+        <img src="https://scoobies.co.in/cdn/shop/products/newcombo1-1.webp?v=1678883194&width=360" class="card-img-top w-100 height-300 " alt="bag image">
+        <div class="card-body">
+          <h5 class="a card-title  bg-primary">-38% OFF</h5>
+        </div>
+        <ul class=" list-group list-group-flush  ">
+          <li class="a  list-group-item"><p>Glowing Shark Club-School Scoo-ppiness Box</p></li>
+          <li class="a  list-group-item d-inline"><del>₹ 9,747.00 INR</del><p>₹ 6,043.00 INR</p></li>
+         </ul>
+        <div class="a border border-black card-body">
+          <h4 class="  card-link text-center">Add to cart</h4>
+        </a> 
+        </div>
+     </div>
+    </div>
+
+    <div class="col-sm-6 col-md-6  col-lg-3 col-6  "><div class="card" ><a href="https://scoobies.co.in/products/foodie-on-the-go-back-to-school-scoo-ppiness-box">
+      <img src="https://scoobies.co.in/cdn/shop/products/newcombo1-4.webp?v=1678883332&width=360" class="card-img-top w-100 height-300 " alt="bag image">
+      <div class="card-body">
+        <h5 class="a card-title  bg-primary">-36% OFF</h5>
+      </div>
+      <ul class=" list-group list-group-flush  ">
+        <li class="a  list-group-item"><p>Foodie on the go-School Scoo-ppiness Box</p></li>
+        <li class="a  list-group-item d-inline"><del>₹ 6,357.00 INR</del><p>₹ 4,005.00 INR</p></li>
+       </ul>
+      <div class="a card-body border border-black">
+        <h4 class=" card-link text-center  ">Add to cart</h4>
+      </a>
+      </div>
+   </div>
+  </div>
+          </div>
+           </div>
+           <div ><h4 class=" text-center my-4 ">HOT DEALS</h4></div>
+      <!--content  -->
+       <div class="container container-fluid  ">
+        <div class="row align-items-center ">
+          <div class="col-sm-6 col-md-6  col-lg-3 col-6"><div class="card" ><a href="https://scoobies.co.in/products/pudgy-texture-brushes-for-magical-painting-experience?_pos=1&_psq=pud&_ss=e&_v=1.0">            <img src="https://scoobies.co.in/cdn/shop/products/Website.webp?v=1678883866&width=360" class="card-img-top w-100 height-300 " alt="bag image">
+            <div class="card-body">
+              <h5 class="a card-title  bg-primary">-10% OFF</h5>
+            </div>
+            <ul class=" list-group list-group-flush  ">
+              <li class="a  list-group-item"><p>Pudgy Texture Brushes-For Magical Painting</p></li>
+              <li class="a  list-group-item d-inline"><del>₹ 499.00 INR</del><p>₹ 449.00 INR</p></li>
+             </ul>
+            <div class="a border border-black card-body">
+              <h4 class="text-center card-link">Add to cart</h4>
+            </a>
+ 
+            </div>
+             </div>
+             </div>
+
+             <div class=" col-sm-6 col-md-6  col-lg-3 col-6 "><div class="card" ><a href="https://scoobies.co.in/products/painting-rolling-scoo-happiness-box?_pos=1&_psq=painting+%26+rolling&_ss=e&_v=1.0">              <img src="https://scoobies.co.in/cdn/shop/files/NewCombosforwebsite2-10.webp?v=1684496745&width=360" class="card-img-top w-100 height-300 " alt="bag image">
+              <div class="card-body">
+                <h5 class="a card-title  bg-primary">-15% OFF</h5>
+              </div>
+              <ul class=" list-group list-group-flush  ">
+                <li class="a  list-group-item"><p>Painting & Rolling-Scoo Happiness Box</p></li>
+                <li class="a  list-group-item d-inline"><del>₹ 1,298.00 INR</del><p>₹ 1,099.00 INR</p></li>
+               </ul>
+              <div class="a card-body border border-black">
+                <h4 class="text-center  card-link">Add to cart</h4>
+              </a>
+
+              </div>
+           </div>
+          </div>
+
+
+          <div class=" col-sm-6 col-md-6  col-lg-3 col-6  "><div class=" card " ><a href="https://scoobies.co.in/products/diy-pouring-canvas-art-set-the-voyage-of-mermaid?_pos=3&_sid=2c4e104ec&_ss=r">
+            <img src="https://scoobies.co.in/cdn/shop/files/PouringPaint-1.webp?v=1691130279&width=360" class="card-img-top w-100 height-300 " alt="bag image">
+            <div class="card-body">
+              <h5 class="a card-title  bg-primary">NEW ARRIVAL</h5>
+            </div>
+            <ul class=" list-group list-group-flush  ">
+              <li class="a  list-group-item"><p>DIY Pouring Canvas Art Set-The Voyage </p></li>
+              <li class="a  list-group-item d-inline"><p>₹ 999.00 INR</p></li><br/>
+             </ul>
+            <div class="a border border-black card-body">
+              <h4 class="text-center  card-link">Add to cart</h4>
+            </a> 
+            </div>
+         </div>
+        </div>
+
+        <div class=" col-sm-6 col-md-6  col-lg-3 col-6 "><div class=" card " ><a href="https://scoobies.co.in/products/diy-pouring-canvas-art-the-journey-to-space?_pos=1&_sid=2c4e104ec&_ss=r">
+          <img src="https://scoobies.co.in/cdn/shop/files/PouringPaint-2.webp?v=1691130370&width=360" class="card-img-top w-100 height-300  " alt="bag image">
+          <div class="card-body">
+            <h5 class="a card-title  bg-primary">NEW ARRIVAL</h5>
+          </div>
+          <ul class=" list-group list-group-flush  ">
+            <li class="a  list-group-item"><p>DIY Pouring Canvas Art-The Journey to Space</p></li>
+            <li class="a  list-group-item d-inline"><p>₹ 999.00 INR</p></li><br/>
+           </ul>
+          <div class="a card-body border border-black">
+            <h4 class="text-center card-link  ">Add to cart</h4>
+          </a> 
+          </div>
+       </div>
+      </div>
+    </div>
+  </div>
+   
+  
+  <div class="container d-flex justify-content-center align-items-center ">
+    <a href="https://scoobies.co.in/collections/latest"><button type="button" class="a btn btn-dark my-4 ">VIEW ALL</button></a>
+  </div>
+  
+  <div ><h4 class=" text-center my-4">JOIN US IN THE SCOOTILITY ON INSTAGRAM</h4></div>
+
+<!-- image gallery -->
+  <div class="container text-center">
+    
+    <div class="row">
+      <div class=" col justify-content-center">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/Cv6SNXnJHVg/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/Cv6SNXnJHVg/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/Cv6SNXnJHVg/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Scoobies-Australian Owned (@scoobiesstores)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+      </div>
+      <div class="col justify-content-around">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/Cv6SNXnJHVg/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/Cv6SNXnJHVg/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/Cv6SNXnJHVg/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Scoobies-Australian Owned (@scoobiesstores)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+      </div>
+    
+    </div>
+  </div>
+  <div class="container d-flex justify-content-center align-items-center ">
+    <button type="button" class="a btn btn-dark my-4 ">VIEW ALL</button>
+  </div>
+  
+  <div ><h4 class=" text-center my-4">BLOG POSTS</h4></div>
+
+  <div class="container container-fluid  ">
+        <div class="row justify-content-around ">
+          <div class=" col-sm-6 col-md-6  col-lg-3 col-6 "><div class=" a card " ><a href="https://scoobies.co.in/blogs/blogs/rakhi-gifts-for-artistic-siblings">
+            <img src="https://scoobies.co.in/cdn/shop/articles/rakhi_art_blog.webp?v=1691987599" class="card-img-top w-200 height-300  " alt="bag image">
+            <div class="card-body">
+              <h3 class="card-title  ">Rakhi Gifts for Artistic Siblings</h3>
+              <i>AUGUST 14,2023</i>
+              <p><i>They are your partners.They are your supporters they are your critics they are your friends they are your SIBLINGS</i> the word sibling brings a lot of emotions and memories...</p>
+            </a>
+            </div>
+         </div>
+        </div> 
+        <div class=" col-sm-6 col-md-6  col-lg-3 col-6 "><div class=" a card " ><a href="https://scoobies.co.in/blogs/blogs/rakhi-gifts-for-foodie-siblings">
+          <img src="https://scoobies.co.in/cdn/shop/articles/rakhi_blog_front.webp?v=1691641864&width=720" class="card-img-top w-200 height-300  " alt="bag image">
+          <div class="card-body">
+            <h3 class=" card-title  ">Rakhi Gifts for Foodie Siblings</h3>
+            <i>AUGUST 10,2023</i>
+            <p>The bond and relationship between siblings is like nowhere they can be both;#partnerincrime and #partnerinfight...</p>
+          </a>
+          </div>
+       </div>
+      </div> 
+
+      <div class=" col-sm-6 col-md-6  col-lg-3 col-6 "><div class="a card " ><a href="https://scoobies.co.in/blogs/blogs/essential-nutrients-for-kids-going-to-school">
+        <img src="https://scoobies.co.in/cdn/shop/articles/nutrition_mob.webp?v=1691036024&width=720" class="card-img-top w-200 height-300  " alt="bag image">
+        <div class="card-body">
+          <h3 class=" card-title ">Essential Nutrients for kids going to school</h3>
+          <i>AUGUST 3,2023</i>
+          <p>Eating healthy and nutritious food is essential to a child's development and growth...</p>
+        </a>
+        </div>
+     </div>
+    </div> 
+       </div>
+       </div>
+      <!-- footer -->
+      <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-4">
+          <h5 class="text-uppercase">Best in Scoobies</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://scoobies.co.in/collections/combo" class="text-white">Combos</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/collections/new-arrivals" class="text-white">New Arrivals</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/collections/diy-craft-set" class="text-white">DIY Craft Sets</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/collections/magnetic-toys-range" class="text-white">Magnetic DIY</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/return-gift" class="text-white">Return Gifts</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/collections/school-supplies" class="text-white">School Supplies</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/collections/glow-in-the-dark" class="text-white">Glow in the Dark</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-4">
+          <h5 class="text-uppercase">Company Info</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://scoobies.co.in/pages/our-story" class="text-white">Our Story</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/media" class="text-white">In Media</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/flagship-stores" class="text-white">Flagship Stores</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/brand-philosophy" class="text-white">Brand Philosophy</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/sis-shop-in-shop" class="text-white">SIS (Shop in Shop)</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/franchise" class="text-white">Become a Franchise</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/contact" class="text-white">Contact Us</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/store-locator" class="text-white">Store Locator</a>
+            </li>
+         
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-4">
+          <h5 class="text-uppercase">Stay Connected</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://scoobies.co.in/blogs/blogs" class="text-white">Blogs</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/gallery" class="text-white">Gallery</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/celebrity-love" class="text-white">Celebrity Love</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/share-feedback" class="text-white">Share Feedback</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/influencer" class="text-white">Are you an Influencer?</a>
+            </li>
+         
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-4">
+          <h5 class="text-uppercase">Quick Info</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://scoobies.shiprocket.co/" class="text-white">Track Your Order</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/product-catalogue" class="text-white">Catalog</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/privacy-policy" class="text-white">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/exchange-policy" class="text-white">Exchange Policy</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/shipping-and-delivery" class="text-white">Shipping & Delivery</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/terms-conditions" class="text-white">Terms & Conditions</a>
+            </li>
+            <li>
+              <a href="https://scoobies.co.in/pages/faqs" class="text-white">FAQ's</a>
+            </li>
+         
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  
+  <!-- Grid container -->
+     <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Subscribe to our Emails</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/scoobiesstores" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.tumblr.com/scoobiesstores" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/scoobiesstores/" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://in.pinterest.com/scoobiesstores/" role="button"
+          ><i class="fab fa-pinterest"></i
+        ></a>
+  
+        </div>
+      </section>
+   
+ 
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <a class="text-white" href="https://mdbootstrap.com/"><i class="fa fa-copyright"></i>2023,Powered By Scoobies</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+       
+
+
+      </body>
+
+</html>
